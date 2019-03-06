@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:background="@drawable/download"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VENUE"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+        <TextView
+            android:background="@drawable/decration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DECORATION"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:background="@drawable/photographer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PHOTOGRAPHER"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+        <TextView
+        android:background="@drawable/catering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CATERING"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+        <TextView
+            android:background="@drawable/mehendi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEHENDI"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
